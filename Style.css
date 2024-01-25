@@ -1,0 +1,92 @@
+.custom-select {
+    position: relative;
+}
+
+.select-options {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px 0px 0px 0px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: #fff;
+    max-height: 250px;
+    overflow-y: auto;
+    z-index: 1;
+    outline: 1px solid #215510 !important;
+}
+
+    .select-options::-webkit-scrollbar {
+        display: none;
+    }
+
+    .select-options li {
+        padding: 8px 12px;
+        cursor: pointer;
+    }
+
+        .select-options li:hover {
+            background-color: #215510;
+            border-radius: 5px;
+            color: #ffffff;
+        }
+
+
+        /*General Mtpl-FormDataEntry style*/
+.form-create-mtpl-offer.Mtpl-Data {
+    margin: 20px 0px 0px 0px;
+}
+
+.section-title.title-regular {
+    color: #215510;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.Mtpl-FormDataEntry-Container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    border-top: 1px solid #EDF0F1;
+}
+
+.mtpl-form-group {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0px 30px;
+}
+
+.mtpl-form-label {
+    padding: 8px 10px;
+    color: #14213D;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.mtpl-form-input {
+    height: 40px;
+    border-radius: 5px;
+    padding: 0px 10px;
+    border: none;
+    outline: none;
+    background-color: #eef1ff;
+    color: #215510;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+    .mtpl-form-input:hover, .mtpl-form-input:focus {
+        font-style: normal !important;
+        background-color: #ffffff !important;
+        outline: 3px solid #215510 !important;
+        color: #215510 !important;
+        font-weight: 600 !important;
+    }
+
+    .mtpl-form-input::placeholder {
+        color: #ff8080;
+    }
+
+/*END General Mtpl-FormDataEntry style*/
